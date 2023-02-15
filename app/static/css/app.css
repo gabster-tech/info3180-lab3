@@ -1,3 +1,21 @@
 body {
     padding-top: 5rem;
 }
+
+.form-label{
+    font-weight: bold;   
+}
+
+.req-lbl{
+    color: red;
+    font-weight: bold;
+}
+
+#send-btn{
+    background-color: rgb(59, 59, 218);
+    color: white;
+    height: 45px;
+    width: 15%;
+    border: none;
+    border-radius: 5px;
+}
