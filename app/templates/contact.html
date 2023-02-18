@@ -5,7 +5,7 @@
     <hr/>
     <p> Fill in this form to contact the site owners. </p>
    
-    <form action="{{ url_for('contact') }}" method="POST">
+    <form action="{{ url_for('contact') }}" method="POST" novalidate>
         
         {{ form.csrf_token }}
 
