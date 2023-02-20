@@ -39,7 +39,7 @@ def contact():
         msg.body = message
         mail.send(msg)
         flash("Your email was successfully sent!")
-        return redirect('/')
+        return redirect(url_for('home'))
     else:
         flash_errors(contactForm)
     return render_template('contact.html', form=contactForm)
